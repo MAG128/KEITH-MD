@@ -1,6 +1,6 @@
 /*I wrote a script to automate my job. Now I just sit back and watch Netflix while it runs.*/
 
-const session = process.env.SESSION || '';
+const session = process.env.SESSION || 'ALPHA;;;H4sIAAAAAAAAA61V2Y6rOBD9F78mfcMaIFJLAwTI2pCEdEhG82DAEIc1xpDlKv8+IulWt3S3Hml4sox96lTVqePvIC9whaboAgbfQUlwAylql/RSIjAAWh1FiIAuCCGFYABUK7AdZyw2Hb2YkWLtTNaMy22Za4Je4jk1O9rIE2iSIrZ4BrcuKGs/xcFvAM/nwrSpb5JZlJCSbtnselxgiozUmxoZXs+dtSEgg24T+RncWkSICc5jo9yjDBGYTtHFgZh8jb5hbGO0NASPL0/U8pazy9arZofE3EwuwcSnjYqR3tnJR0b4Gv19Jbj1WOh3dMQvjtvc6y3FdNo5EquXncRFwWS+oSsQmYv1g36F4xyF4xDlFNPLl+ueTeOpAY3UwaislnZgNzSRbSLF4VYg6QnPFt4wsFdnnau+Rhz3CbX6FZNxsWZzl3l41qcNqx6EzXXnWn1hXLt14EV2YxafiTvkXSvJf6k7p03InJNkBu3GhzCf1QKzZsbFkplrR2XCHvqJOR5Nrudp8kXZxF5pcb0C22WhuCHSFGadTXxtX82Ws+y68fcvV7U3Ek3+9VPdIa3J71gyLPXyw8pk9vJ2pImodn2G1zWNiDLkj1KhuS+neJ6pI743m0fnBfSg8VrD5eKaCL2Gy7x8uYi2y22/M0krS1wb58VoqD7fM0rQZRyCAXvrAoJiXFECKS7y+x4ndwEMmxUKCKL38oJsmV0X4Stk1vx+vERJykZhFsWN0vcoSeYFWclajRZLKzeeQReUpAhQVaFwhCtakMscVRWMUQUGf9871SZNUFZQNMFh2w9ekFmGF0WW57m/qm+nPaQVLMtvOaKgCyJSZHMEBpTUqAvuNzRJkAS1L3A6oxnDvqwKnKFruigpuilqnNjmmD2iujhDFYVZCQasJPRZvi8Lwq37PxERGVkRVMVgtD7PsgKjapzJsYaiKYypmJz2ByLy7Z8uyNGZPpTc1p9nuyDCpKLrvC7TAobvMn//CYOgqHO6uuSB3i4QAYNP24hSnMdVm1qdQxLscYP0Ng8wiGBaoVsXhKjBAWrxQBwpi4s4PiyMp90mlXJ83C7MU9vDfZE/jjAcEsUIRU8oROhJ4EXxSZF55gmKCh8KgY9QoIC2HA8Tae/8UtNScu3UqrvhpmxjIm8T7NOTMHHy0jbuunyIEREUvlfZh0FSl26RoPx3D4G5Nmaxy0endefM6o3PIEXTFteLEnzCfYgcDL5/GLdehC2et1NWuuxwoO1WG+dHOQyUHwWRw/Y0WOdJXpzyNtBbF1qIEFGI0woMgD5ze4ddpRkOCa+yalmqEat6rIKPrr37wWPe+vromlbJ2NlfguGZkZo6kXd4sk0NJROPhtVv5Ggzlyork59/AgIGgHULYxz2ydjwsLLStqtyqjuu2ZDOVa/nw9m0msVlvHbzcmhpzGXSSOV8x089cz71R9ooqbYvTqRFy56tqVniWrZ/LLXTcxvtoZ7PwRZ+wJ5LoxFmw0CtQytJU+WMpAusZ/MzX7569q5v+czIW8akc3XQOTruRa5cDVVxGo13oRPYHcZgTn5vKK3IKS2sg/fuVHenTN9eKPzmIQ+tRRjdDf+tC3/s1ofsmVv3E8bbE/ILaWko3suiP9GHQpCrcmhLUulYW7yZLJ1dDfdaTXoj9mBLWtmAWzvPZQppVJAMDADMQ1LgEHRBCiuqfkzuz8yA6YLsopblikL6PvBAbb8Z7oHbv4HumrkdCQAA';
 
 const prefix = process.env.PREFIX || '';
 const mycode = process.env.CODE || "254";
@@ -10,7 +10,7 @@ const dev = process.env.OWNER_NUMBER || '254748387615';
 const DevKeith = dev.split(",");
 const botname = process.env.BOTNAME || 'KEITH-MD';
 const mode = process.env.MODE || 'public';
-const gcpresence = process.env.GC_PRESENCE || 'false';
+const gcpresence = process.env.GC_PRESENCE || 'true';
 const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
 const presence = process.env.WA_PRESENCE || 'online';
